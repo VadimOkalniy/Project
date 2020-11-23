@@ -1,0 +1,603 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-image: url("Header 1.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 750px;
+}
+
+.menu {
+  margin-left: 55px;
+  margin-top: 35px;
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu .nav-menu {
+  align-items: center;
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu .nav-menu li {
+  list-style: none;
+}
+.menu .nav-menu li a {
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  -webkit-text-stroke: 1px  #000000;
+  text-decoration: none;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 188px;
+  width: 71%;
+}
+.section .fon {
+  background-image: url("Header 2.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1700px;
+  margin-top: 750px;
+}
+.section .container {
+  padding-bottom: 120px;
+  position: absolute;
+  width: 71%;
+  background: linear-gradient(180deg, rgba(50, 42, 39, 0) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.section .container .container-header {
+  width: 100%;
+}
+
+.title-header {
+  margin-left: 8%;
+  margin-top: 76px;
+  width: 43%;
+}
+.title-header h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 89px;
+  color: #FFFFFF;
+}
+.title-header .info-one {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.title-header .info-two {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+
+.form-button {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.form-button .form-row {
+  width: 67%;
+}
+.form-button .form-row .field {
+  background: rgba(255, 255, 255, 0);
+  max-width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Pavanam;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 9px 30% 9px 8%;
+  color: rgba(255, 255, 255, 0.4);
+}
+.form-button .button-btn .button {
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #FF1640;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Pavanam;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 9px 20px 9px 20px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.line {
+  margin-top: 79px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+}
+.social a .icon {
+  margin-top: -8px;
+}
+.social a img {
+  vertical-align: middle;
+}
+
+.marketing {
+  margin-top: 70px;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.marketing-images {
+  display: flex;
+  position: relative;
+}
+.marketing-images img {
+  display: block;
+  width: 40%;
+}
+.marketing-images .one {
+  margin-top: 71px;
+  position: absolute;
+  left: -24px;
+  z-index: 0;
+}
+.marketing-images .two {
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+.marketing-images .three {
+  margin-top: 71px;
+  position: absolute;
+  right: 0px;
+  z-index: 0;
+}
+
+.marketing-info {
+  margin-top: 132px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.marketing-info .punkt {
+  width: 40%;
+  display: flex;
+}
+.marketing-info .punkt img {
+  width: 100%;
+}
+.marketing-info p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+.marketing-button .marketing-btn {
+  padding: 2px 20px 5px 35px;
+  background: linear-gradient(180deg, #864A23 0%, #6A3A1B 100%);
+  border-radius: 20px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 149.8%;
+  border: #6A3A1B;
+  color: #FFFFFF;
+}
+
+.marketing-people {
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.marketing-people .marketing-one {
+  width: 100%;
+}
+.marketing-people .marketing-one .people-one {
+  width: 100%;
+}
+.marketing-people .marketing-one .people-one .piple-number {
+  width: 53%;
+  display: flex;
+  justify-content: space-between;
+}
+.marketing-people .marketing-one .people-one .piple-number .number {
+  display: flex;
+}
+.marketing-people .marketing-one .people-one .piple-number .number p {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+.marketing-people .marketing-one .people-one .piple-number .people-button {
+  display: flex;
+  position: relative;
+  width: 28%;
+}
+.marketing-people .marketing-one .people-one .piple-number .people-button img {
+  width: 100%;
+}
+.marketing-people .marketing-one .people-one .piple-number .people-button p {
+  position: absolute;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 149.8%;
+  right: 5px;
+  top: 2px;
+  color: #2D2828;
+}
+
+.rosario {
+  width: 53%;
+}
+.rosario .rosario-fon {
+  width: 100%;
+}
+.rosario .rosario-info {
+  width: 100%;
+  display: flex;
+  margin-top: -120px;
+}
+.rosario .rosario-info .people-rosario {
+  margin-left: 5px;
+  width: 13%;
+}
+.rosario .rosario-info p {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #2D2828;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+}
+.rosario .rosario-info p span {
+  margin-top: -5px;
+  display: block;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: rgba(45, 40, 40, 0.7);
+}
+.rosario .rosario-info .Showcasing {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 149.8%;
+  margin-left: 12px;
+  /* identical to box height, or 33px */
+  color: #2D2828;
+}
+.rosario .rosario-info .Showcasing span {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #2D2828;
+}
+.rosario .rosario-info .Showcasing .Showcasing-one {
+  margin-top: 10px;
+}
+
+.people-info-one {
+  margin-top: -10px;
+  width: 41%;
+}
+.people-info-one .start {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 149.8%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.people-info-one .technology {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149.8%;
+  margin-top: 19px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.rosario-people-info-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.marketing-people {
+  margin-top: 61px;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.marketing-people .marketing-two {
+  margin-top: 94px;
+  width: 100%;
+}
+.marketing-people .marketing-two .people-two {
+  width: 100%;
+}
+.marketing-people .marketing-two .people-two .piple-number-two {
+  width: 53%;
+  display: flex;
+  justify-content: space-between;
+}
+.marketing-people .marketing-two .people-two .piple-number-two .number-two {
+  display: flex;
+}
+.marketing-people .marketing-two .people-two .piple-number-two .number-two p {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+.marketing-people .marketing-two .people-two .piple-number-two .people-button-two {
+  display: flex;
+  position: relative;
+  width: 28%;
+}
+.marketing-people .marketing-two .people-two .piple-number-two .people-button-two img {
+  width: 100%;
+}
+.marketing-people .marketing-two .people-two .piple-number-two .people-button-two p {
+  position: absolute;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 149.8%;
+  left: 5px;
+  top: 2px;
+  color: #2D2828;
+}
+
+.rosario-two {
+  width: 53%;
+}
+.rosario-two .rosario-fon-two {
+  width: 100%;
+}
+.rosario-two .rosario-info-two {
+  width: 100%;
+  display: flex;
+  margin-top: -120px;
+}
+.rosario-two .rosario-info-two .people-rosario-two {
+  margin-left: 5px;
+  width: 13%;
+}
+.rosario-two .rosario-info-two p {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #2D2828;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+}
+.rosario-two .rosario-info-two p span {
+  margin-top: -5px;
+  display: block;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: rgba(45, 40, 40, 0.7);
+}
+.rosario-two .rosario-info-two .Showcasing {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 149.8%;
+  margin-left: 12px;
+  /* identical to box height, or 33px */
+  color: #2D2828;
+}
+.rosario-two .rosario-info-two .Showcasing span {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #2D2828;
+}
+.rosario-two .rosario-info-two .Showcasing .Showcasing-one {
+  margin-top: 10px;
+}
+
+.people-info-two {
+  margin-top: -10px;
+  width: 41%;
+}
+.people-info-two .start {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 149.8%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.people-info-two .technology {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149.8%;
+  margin-top: 19px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.rosario-people-info-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.people-footer {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 71%;
+  position: absolute;
+  margin-top: 1851px;
+}
+.people-footer .footer-logo {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.people-footer .footer-logo img {
+  width: 18%;
+}
+.people-footer .people-person {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  display: flex;
+  width: 84%;
+}
+.people-footer .people-person .people {
+  width: 31%;
+}
+.people-footer .people-person .people .people-one-one {
+  width: 100%;
+}
+.people-footer .people-person .people .people-one-one .people-photo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.people-footer .people-person .people .people-photo-one {
+  width: 32%;
+}
+.people-footer .people-person .people .people-photo-two {
+  margin-top: 20px;
+  height: 20%;
+}
+.people-footer .people-person .people .people-info-one-one p {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 149.8%;
+  /* or 27px */
+  color: #000000;
+}
+
+.footer {
+  background-image: url("footer.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 2400px;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 540px;
+}
+.footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0px;
+  margin-top: 373px;
+}
+.footer p {
+  margin-top: -48px;
+  margin-left: -30px;
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}

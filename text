@@ -1,0 +1,380 @@
+body{
+    margin:0px;
+    max-width: 1400px;
+}
+.header {
+    background-image: url("Rectangle 1.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 757px;
+  z-index: 1;
+  max-width: 1400px;
+}
+.menu{
+    
+    padding-top:5vh;
+    margin-left:4vw;
+    display:flex;
+    width: 42vw;
+    justify-content: space-between;
+}
+.nav-menu{
+    align-items: center;
+    width: 27vw;
+    justify-content: space-between;
+    display:flex;
+    li{
+        text-decoration: none;
+        list-style: none;
+    }
+}
+
+  .section{
+    max-width: 1400px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+.fon{
+  width: 100%;
+    height:700px;
+    background-image: url("Rectangle 2.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    background-size: cover;
+    z-index: 0;
+}
+.container{
+    max-width: 994px;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(50, 42, 39, 0) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-sizing: border-box;
+box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    width:71vw;
+    margin-top:29vh;
+}
+.container-hader{
+    width: 71vw;
+    padding-top:76px;
+}
+.title-header{
+    width: 31vw;
+   
+}
+.container-info{
+    width: 31vw;
+    h1{
+        margin-top:0px;
+        margin-bottom:0px;
+        font-family: Paytone One;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 89px;
+color: #FFFFFF;
+    }
+    .info-one{
+        font-family: Paytone One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+color: #FFFFFF;
+    }
+    .info-two{
+        margin-top:30px;
+        font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 149.8%;
+
+
+
+color: #FFFFFF;
+    }
+    p{
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+}
+.form-button{
+    height: 36px;
+    margin-top:25px;
+    display:flex;
+    justify-content: space-between;
+    width: 31vw;
+    .form-row  {
+     width: 21vw;
+   
+    box-sizing: border-box;
+    border-radius: 50px;
+    input{
+        height: 36px;;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        box-sizing: border-box;
+        border-radius: 50px;
+        width: 21vw;
+        background: rgba(255, 255, 255, 0);
+        font-family: Pavanam;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(255, 255, 255, 0.4);
+    }
+    
+    }
+    .button-btn{
+        width: 8.7vw;
+        
+box-sizing: border-box;
+border-radius: 50px;
+         button{
+        width: 8.7vw;
+        border: 2px solid #FF1640;
+        box-sizing: border-box;
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 0);
+        font-family: Pavanam;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.4);
+    }
+}
+}
+.line{
+    margin-top:79px;
+    width: 71vw;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.social{
+    margin-top:25px;
+    display:flex;
+    width: 59vw;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-between;
+a{
+    .icon{
+        margin-top:-1.5vh;
+    }
+   img{
+       vertical-align: middle;
+   }
+}
+
+}
+.marketing{
+    width: 60vw;
+    .marketing-images{
+        width: 60vw;
+        height:40px;
+  }
+  }
+ 
+
+????????????????????
+
+
+
+body {
+  margin: 0px;
+  max-width: 1400px;
+}
+*{
+  max-width: 1400px;
+}
+.header {
+  background-image: url("Rectangle 1.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 757px;
+  z-index: 1;
+  max-width: 1400px;
+}
+
+.menu {
+  padding-top: 5vh;
+  margin-left: 4vw;
+  display: flex;
+  width: 42vw;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  align-items: center;
+  width: 27vw;
+  justify-content: space-between;
+  display: flex;
+}
+.nav-menu li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.section {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fon {
+  width: 100%;
+  height: 700px;
+  background-image: url("Rectangle 2.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  background-size: cover;
+  z-index: 0;
+  max-width: 1400px;
+}
+
+.container {
+  max-width: 994px;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(50, 42, 39, 0) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 71vw;
+  margin-top: 29vh;
+}
+
+.container-hader {
+  width: 71vw;
+  padding-top: 76px;
+}
+
+.title-header {
+  width: 31vw;
+}
+
+.container-info {
+  width: 31vw;
+}
+.container-info h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 89px;
+  color: #FFFFFF;
+}
+.container-info .info-one {
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.container-info .info-two {
+  margin-top: 30px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+.container-info p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.form-button {
+  height: 36px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 31vw;
+}
+.form-button .form-row {
+  width: 21vw;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.form-button .form-row input {
+  height: 36px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: 21vw;
+  background: rgba(255, 255, 255, 0);
+  font-family: Pavanam;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.form-button .button-btn {
+  width: 8.7vw;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.form-button .button-btn button {
+  width: 8.7vw;
+  border: 2px solid #FF1640;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0);
+  font-family: Pavanam;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.line {
+  margin-top: 79px;
+  width: 71vw;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social {
+  margin-top: 25px;
+  display: flex;
+  width: 59vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.social a .icon {
+  margin-top: -1.5vh;
+}
+.social a img {
+  vertical-align: middle;
+}
+
+
